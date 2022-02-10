@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-data {
+  display: flex;
+  flex-direction: column;
+  width: 214px;
+  padding: 20px;
+}
+
+.user-data-select {
+  margin-left: 12px;
+  width: 105%;
+}
+
+.user-data-input {
+  margin: 14px;
+  width: 100%;
+}
+
+.city {
+  display: flex;
+  flex-direction: column;
+}
+
+.city .city-name {
+  width: 181px;
+  font-size: 34px;
+  margin-bottom: 5px;
+}
+
+.city .city-weather {
+  left: 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.city-detail span {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.display {
+  margin-top: 50px;
+}
+
+.display .data-weather {
+  display: flex;
+  flex-direction: row;
+}
+
+.data-weather div {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 175px;
+  margin: 12px;
+  margin-right: 26px;
+}
+
+.data-weather-parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-parent {
+  margin: 10px 0px 50px 200px;
+}
+
+.weather-parent div span span {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.weather-parent-content-temp {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.weather-parent-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-weather div span span {
+  font-size: 16px;
+  font-weight: 600;
+}
